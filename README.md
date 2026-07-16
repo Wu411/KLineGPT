@@ -76,7 +76,7 @@ KLineGPT/
 ## Installation
 
 ```bash
-git clone https://github.com/<your-org>/KLineGPT.git
+git clone https://github.com/Wu411/KLineGPT.git
 cd KLineGPT
 python -m venv venv && source venv/bin/activate    # optional
 pip install -r requirements.txt
