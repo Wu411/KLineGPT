@@ -364,7 +364,7 @@ if __name__ == "__main__":
             top_k=50, 
             drop_n=5, 
             min_hold_days=5, 
-            cost_rate=0,
+            cost_rate=0.0015,
             start_date=START_DATE,
             end_date=END_DATE
         )
