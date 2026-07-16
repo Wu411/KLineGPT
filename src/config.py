@@ -5,15 +5,15 @@ CONFIG = {
     # 1. 数据与设备
     # ==============================
     "data_paths": [
-        "/home/wujiaxuan/TS_LLM/data/output_kline/csi300.csv",
+        "./data/output_kline/csi300.csv",
     ],
     
     "tokenizer_data_path": [
-        "/home/wujiaxuan/TS_LLM/data/output_kline/csi300.csv",
+        "./data/output_kline/csi300.csv",
     ],
 
-    "val_data_path": "/home/wujiaxuan/TS_LLM/data/output_kline/csi300.csv",
-    "index_data_path": "/home/wujiaxuan/TS_LLM/data/output_index_data/csi300_index.csv",
+    "val_data_path": "./data/output_kline/csi300.csv",
+    "index_data_path": "./data/output_index_data/csi300_index.csv",
     "device": "cuda:5",
     "split_date": "2025-01-01",
 
@@ -52,7 +52,7 @@ CONFIG = {
     # ==============================
     # 4. Downstream: Time-LLM / GPT-2
     # ==============================
-    "gpt_backbone": "/home/wujiaxuan/TS_LLM/GPT-2/gpt2-small",
+    "gpt_backbone": "./GPT-2/gpt2-small",
     "n_gpt_layers": 6,
     "gpt_context_len": 32, 
     "thought_len": 10,
